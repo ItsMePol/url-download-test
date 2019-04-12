@@ -8,10 +8,9 @@ public class Downloader {
         URLExtractor extractor = new URLExtractor();
         DirectoryPathChooser directoryPathChooser = new DirectoryPathChooser();
         String[] urlExtracted = extractor.extractURLs(urls);
-        String path;
+        String path = directoryPathChooser.getDirectoryPath(extractor.urlToFileName(urlExtracted[0]));
         for(int i = 0; i<urlExtracted.length; i++){
             System.out.println("Downloading from : "+urlExtracted[i]);
-            path = directoryPathChooser.getDirectoryPath(extractor.urlToFileName(urlExtracted[i]));
             //Download file
             downloadFromURL(urlExtracted[i], path+"/"+extractor.urlToFileName(urlExtracted[i]));
             System.out.println("=========Downloaded=======");

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ce45d0-5fca-4096-be99-ddd05fa812a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DirectoryPathChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/URLExtractor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DownloadSources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/URLExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/URLExtractor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DownloadSources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DownloadSources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DownloadSources.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/IntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UnitTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,15 +44,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
-          <entry key="java" value="10460" />
-          <entry key="txt" value="57" />
+          <entry key="java" value="10492" />
+          <entry key="txt" value="103" />
           <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10460" />
-          <entry key="PLAIN_TEXT" value="93" />
+          <entry key="JAVA" value="10492" />
+          <entry key="PLAIN_TEXT" value="139" />
           <entry key="XML" value="13" />
         </counts>
       </usages-collector>
@@ -73,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Downloader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+            <state relative-caret-position="180">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/DirectoryPathChooser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -97,16 +93,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/URLExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state>
+              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="945">
               <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -115,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="315">
+              <caret line="23" column="156" selection-start-line="23" selection-start-column="156" selection-end-line="23" selection-end-column="156" />
             </state>
           </provider>
         </entry>
@@ -143,11 +139,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/URLExtracter.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileAndDirectoryManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/URLExtractor.java" />
         <option value="$PROJECT_DIR$/src/main/java/DirectoryPathChooser.java" />
         <option value="$PROJECT_DIR$/src/main/java/DownloadSources.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/UnitTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Downloader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/URLExtractor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -216,7 +213,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555072376298" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555075016143" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -235,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest.downloadSingleURLFTP">
+  <component name="RunManager" selected="JUnit.IntegrationTest.downloadMultipleURLs">
     <configuration name="IntegrationTest.downloadMultipleURLs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nawapol" />
       <option name="PACKAGE_NAME" value="" />
@@ -246,11 +243,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.downloadSingleURL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.downloadMultipleURLsFTP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nawapol" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IntegrationTest" />
-      <option name="METHOD_NAME" value="downloadSingleURL" />
+      <option name="METHOD_NAME" value="downloadMultipleURLsFTP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.downloadMultipleURLsHTTP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nawapol" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest" />
+      <option name="METHOD_NAME" value="downloadMultipleURLsHTTP" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -276,30 +283,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest.getDirectoryFromJFileChooser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="nawapol" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest" />
-      <option name="METHOD_NAME" value="getDirectoryFromJFileChooser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.UnitTest.getDirectoryFromJFileChooser" />
+      <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsHTTP" />
       <item itemvalue="JUnit.UnitTest.downloadFile" />
-      <item itemvalue="JUnit.IntegrationTest.downloadSingleURL" />
+      <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsFTP" />
       <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLs" />
       <item itemvalue="JUnit.IntegrationTest.downloadSingleURLFTP" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IntegrationTest.downloadSingleURLFTP" />
         <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLs" />
-        <item itemvalue="JUnit.IntegrationTest.downloadSingleURL" />
+        <item itemvalue="JUnit.IntegrationTest.downloadSingleURLFTP" />
+        <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsFTP" />
+        <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsHTTP" />
         <item itemvalue="JUnit.UnitTest.downloadFile" />
-        <item itemvalue="JUnit.UnitTest.getDirectoryFromJFileChooser" />
       </list>
     </recent_temporary>
   </component>
@@ -321,46 +318,53 @@
       <option name="project" value="LOCAL" />
       <updated>1555071087216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Seperate classes depend on functions.">
+      <created>1555072435740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555072435740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UnitTest_downloadFile - 2019.04.12 at 17h 16m 41s.xml">
-      <configuration name="UnitTest.downloadFile" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_downloadMultipleURLsFTP - 2019.04.12 at 19h 55m 38s.xml">
+      <configuration name="IntegrationTest.downloadMultipleURLsFTP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTest_downloadFile - 2019.04.12 at 17h 21m 41s.xml">
-      <configuration name="UnitTest.downloadFile" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_downloadMultipleURLsFTP - 2019.04.12 at 19h 57m 23s.xml">
+      <configuration name="IntegrationTest.downloadMultipleURLsFTP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegrationTest_downloadSingleURL - 2019.04.12 at 17h 26m 05s.xml">
-      <configuration name="IntegrationTest.downloadSingleURL" configurationId="JUnit" />
+    <history-entry file="IntegrationTest_downloadMultipleURLsFTP - 2019.04.12 at 19h 59m 55s.xml">
+      <configuration name="IntegrationTest.downloadMultipleURLsFTP" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegrationTest_downloadSingleURL - 2019.04.12 at 17h 28m 19s.xml">
-      <configuration name="IntegrationTest.downloadSingleURL" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTest_downloadSingleURL - 2019.04.12 at 17h 32m 52s.xml">
-      <configuration name="IntegrationTest.downloadSingleURL" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 17h 35m 12s.xml">
+    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 01m 44s.xml">
       <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 17h 40m 15s.xml">
+    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 02m 27s.xml">
       <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 17h 41m 38s.xml">
+    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 02m 47s.xml">
       <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 17h 41m 57s.xml">
+    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 05m 11s.xml">
       <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IntegrationTest_downloadSingleURLFTP - 2019.04.12 at 19h 21m 23s.xml">
+    <history-entry file="IntegrationTest_downloadSingleURLFTP - 2019.04.12 at 20h 05m 25s.xml">
       <configuration name="IntegrationTest.downloadSingleURLFTP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 07m 06s.xml">
+      <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 11m 37s.xml">
+      <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,15 +373,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6743421" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5450644" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5471491" side_tool="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.4549356" side_tool="true" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45285088" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.44635195" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -421,7 +425,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start from project first sent in the link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start from project first sent in the link" />
+    <MESSAGE value="Seperate classes depend on functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Seperate classes depend on functions." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
@@ -432,47 +437,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DirectoryPathChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="945">
+          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/URLExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Downloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        <state relative-caret-position="180">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DirectoryPathChooser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/URLExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="156" selection-start-line="23" selection-start-column="156" selection-end-line="23" selection-end-column="156" />
         </state>
       </provider>
     </entry>

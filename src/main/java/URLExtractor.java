@@ -39,14 +39,11 @@ public class URLExtractor {
             String temp = url.substring(0,fileTypeDotPosition);
             temp = temp.replace('.', '-');
             url = url.replaceAll(url.substring(0,fileTypeDotPosition), temp);
-            url = url.replaceAll("://", "-");
-            url = url.replaceAll("/", "-");
         }else{
             url = url.replace('.', '-');
-            url = url.replaceAll("://", "-");
-            url = url.replaceAll("/", "-");
-            url = url+".html";
         }
+        url = url.replaceAll("://", "-");
+        url = url.replaceAll("/", "-");
         return url;
     }
 }

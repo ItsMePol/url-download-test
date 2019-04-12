@@ -14,8 +14,14 @@ public class IntegrationTest {
     }
 
     @Test
-    public void downloadMultipleURLsHTTP(){
-        String input = "https://s1.q4cdn.com/806093406/files/doc_downloads/test.pdf http://i.imgur.com/I86rTVl.jpg";
+    public void downloadSingleURLFTP(){
+        String input = "ftp://ftp.adobe.com/armdl-test.txt";
+        download.downloadFromSources(input);
+    }
+
+    @Test
+    public void downloadMultipleURLs(){
+        String input = "http://i.imgur.com/I86rTVl.jpg, ftp://ftp.adobe.com/armdl-test.txt";
         download.downloadFromSources(input);
     }
 }
