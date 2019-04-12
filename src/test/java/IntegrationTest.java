@@ -1,21 +1,22 @@
 import org.junit.jupiter.api.Test;
 
 public class IntegrationTest {
-    private DownloadSources download;
+    private Downloader download;
 
     public IntegrationTest(){
-        download = new DownloadSources();
+        download = new Downloader();
     }
 
     @Test
-    public void downloadSingleURL(){
+    public void downloadSingleURLHTTP(){
         String input = "https://s1.q4cdn.com/806093406/files/doc_downloads/test.pdf";
-        download.downloadSource(input);
+        download.downloadFromSources(input);
     }
 
     @Test
-    public void downloadMultipleURLs(){
+    public void downloadMultipleURLsHTTP(){
         String input = "https://s1.q4cdn.com/806093406/files/doc_downloads/test.pdf http://i.imgur.com/I86rTVl.jpg";
-        download.downloadSource(input);
+        download.downloadFromSources(input);
     }
 }
+
