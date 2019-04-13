@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ce45d0-5fca-4096-be99-ddd05fa812a4" name="Default Changelist" comment="Support FTP protocol">
+    <list default="true" id="23ce45d0-5fca-4096-be99-ddd05fa812a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Downloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/IntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IntegrationTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,15 +41,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="36" />
-          <entry key="java" value="10983" />
-          <entry key="txt" value="128" />
+          <entry key="java" value="10993" />
+          <entry key="txt" value="129" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10983" />
-          <entry key="PLAIN_TEXT" value="164" />
+          <entry key="JAVA" value="10993" />
+          <entry key="PLAIN_TEXT" value="165" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
@@ -67,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Downloader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
+            <state relative-caret-position="889">
               <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+            <state relative-caret-position="360">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -141,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/test/java/UnitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/URLExtractor.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/IntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Downloader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IntegrationTest.java" />
       </list>
     </option>
   </component>
@@ -211,7 +210,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555169806617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555170535805" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -230,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest.downloadMultipleURLs">
+  <component name="RunManager" selected="JUnit.IntegrationTest.downloadSingleURLSFTP">
     <configuration name="IntegrationTest.downloadMultipleURLs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nawapol" />
       <option name="PACKAGE_NAME" value="" />
@@ -271,11 +270,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTest.downloadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.downloadSingleURLSFTP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nawapol" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTest" />
-      <option name="METHOD_NAME" value="downloadFile" />
+      <option name="MAIN_CLASS_NAME" value="IntegrationTest" />
+      <option name="METHOD_NAME" value="downloadSingleURLSFTP" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,18 +282,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsHTTP" />
-      <item itemvalue="JUnit.UnitTest.downloadFile" />
       <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsFTP" />
       <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLs" />
       <item itemvalue="JUnit.IntegrationTest.downloadSingleURLFTP" />
+      <item itemvalue="JUnit.IntegrationTest.downloadSingleURLSFTP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest.downloadSingleURLSFTP" />
         <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLs" />
         <item itemvalue="JUnit.IntegrationTest.downloadSingleURLFTP" />
         <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsFTP" />
         <item itemvalue="JUnit.IntegrationTest.downloadMultipleURLsHTTP" />
-        <item itemvalue="JUnit.UnitTest.downloadFile" />
       </list>
     </recent_temporary>
   </component>
@@ -330,19 +329,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555075132202</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Support SFTP protocol">
+      <created>1555169825983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555169825983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 01m 44s.xml">
-      <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 02m 27s.xml">
-      <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 02m 47s.xml">
-      <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 20h 05m 11s.xml">
       <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
     </history-entry>
@@ -364,6 +361,15 @@
     <history-entry file="IntegrationTest_downloadMultipleURLs - 2019.04.12 at 21h 44m 19s.xml">
       <configuration name="IntegrationTest.downloadMultipleURLs" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IntegrationTest_downloadSingleURLSFTP - 2019.04.13 at 22h 45m 38s.xml">
+      <configuration name="IntegrationTest.downloadSingleURLSFTP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest_downloadSingleURLSFTP - 2019.04.13 at 22h 47m 13s.xml">
+      <configuration name="IntegrationTest.downloadSingleURLSFTP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTest_downloadSingleURLSFTP - 2019.04.13 at 22h 47m 51s.xml">
+      <configuration name="IntegrationTest.downloadSingleURLSFTP" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -378,15 +384,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54291844" visible="true" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54077256" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45708156" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.45922747" side_tool="true" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.444206" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.44206008" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -432,7 +438,8 @@
     <MESSAGE value="Start from project first sent in the link" />
     <MESSAGE value="Seperate classes depend on functions." />
     <MESSAGE value="Support FTP protocol" />
-    <option name="LAST_COMMIT_MESSAGE" value="Support FTP protocol" />
+    <MESSAGE value="Support SFTP protocol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Support SFTP protocol" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
@@ -460,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -476,11 +476,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Downloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
+        <state relative-caret-position="889">
           <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

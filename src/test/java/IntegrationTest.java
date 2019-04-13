@@ -20,8 +20,14 @@ public class IntegrationTest {
     }
 
     @Test
+    public void downloadSingleURLSFTP(){
+        String input = "sftp://example.com//home/joe/employee.csv";
+        download.downloadFromSources(input);
+    }
+
+    @Test
     public void downloadMultipleURLs(){
-        String input = "http://i.imgur.com/I86rTVl.jpg, ftp://ftp.adobe.com/armdl-test.txt, ";
+        String input = "http://i.imgur.com/I86rTVl.jpg, ftp://ftp.adobe.com/armdl-test.txt, sftp://example.com//home/joe/employee.csv";
         download.downloadFromSources(input);
     }
 }
