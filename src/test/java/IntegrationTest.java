@@ -21,7 +21,7 @@ public class IntegrationTest {
 
     @Test
     public void downloadMultipleURLs(){
-        String input = "http://i.imgur.com/I86rTVl.jpg, ftp://ftp.adobe.com/armdl-test.txt";
+        String input = "http://i.imgur.com/I86rTVl.jpg, ftp://ftp.adobe.com/armdl-test.txt, ";
         download.downloadFromSources(input);
     }
 }
